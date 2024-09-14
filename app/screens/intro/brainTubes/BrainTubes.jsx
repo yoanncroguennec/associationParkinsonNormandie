@@ -2,13 +2,9 @@
 
 import React, { useRef } from 'react'
 import * as THREE from "three"
-import { Canvas, extend, useFrame } from "@react-three/fiber"
-import { OrbitControls, shaderMaterial } from "@react-three/drei"
+import { extend, useFrame } from "@react-three/fiber"
+import { shaderMaterial } from "@react-three/drei"
 import { dataIntro } from "@/app/utils/constants/data/dataIntro"
-import { Box, Typography } from "@mui/material"
-
-const PATHS = dataIntro.economics[0].paths;
-console.log(" :", dataIntro.economics[0].paths);
 
 
 function Tube({ curve }) {
