@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import * as THREE from "three"
 import { extend, useFrame } from "@react-three/fiber"
 import { shaderMaterial } from "@react-three/drei"
-import { dataIntro } from "@/app/utils/constants/data/dataIntro"
+// import { dataIntro } from "@/app/utils/constants/data/dataIntro"
 
 
 function Tube({ curve }) {
